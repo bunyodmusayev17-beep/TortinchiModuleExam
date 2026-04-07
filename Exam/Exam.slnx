@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <File Path="NAZARIYA.txt" />
+    <Project Path="src/TelegramBot/TelegramBot.csproj" />
+  </Folder>
+</Solution>

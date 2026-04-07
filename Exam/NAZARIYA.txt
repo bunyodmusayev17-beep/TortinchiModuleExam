@@ -1,0 +1,19 @@
+1.
+LOH -> LOH bu Language Object Heap , .Net heap ichidagi katta obyektlar odatda 85ming kb dan yuqori bolgan obyektlar saqlanadigan joy Katta obyektlarni gen0/gen1 o‘tkazmaslik
+uchun alohida qismga joylashadi, LOH gen2 (to‘liq) GC paytida yig‘iladi yaani kamroq vaqtda, lekin ogirroq GC operatsiyalari bilan.
+LOH katta obyektlar uchun zarur, lekin fragmentatsiya va ortiqcha ajratilishlardan saqlanish uchun poollash, chunklash va pinlardan qochish tavsiya etiladi.
+va bizga kop gina hollarda kerak bolmaydi 
+
+
+2.
+Stream -> stream bu abstract class bolib u bizga filelar ni oqishimiz yozishimisz uchun kerak boladi . Stream bizga fillarni jonatish uchun yoki qabul qlish uchun 
+oqimli tuynuk yaratadi desak ham boladi va u fayillarni bytlar orqali jonatadi, va u birnecha turga bolinadi FileStream bu bizga faylga yozish yoki oqish uchun kerak
+MemmoryStream Xotirada qancha bayt oqimi otishi uchun va hokozo. 
+
+3.
+Exstention method -> exstention methond bu bizning custom methodimis desak boladi yani bizga ancha qulaylik olip keladi masalan biz oz pojectimizda bir 
+logikani kop ishlatsak bu kop qod va kop vaxt sarflash shunda biz yangi class ga extention method yozishimisz mumkun va uni pojectimizda hohlagan joyimizda chaqirishimiz mumkun
+
+
+
+
